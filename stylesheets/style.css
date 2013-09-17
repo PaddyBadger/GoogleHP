@@ -1,0 +1,178 @@
+body {
+  
+  font:13px/27px Arial,sans-serif;
+}
+
+header {
+  height: 30px;
+  background-color: #2d2d2d;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ccc;
+  padding-left: 1.3em;
+}
+
+header ul li a:hover {
+  color: #fff;
+}
+
+
+.signin {
+  background-color: #DD4B39;
+  color: #fff;
+  font-weight: bold;
+  height: 30px;
+  width: 75px;
+  float: right;
+  border-radius:3px;
+  border: none;
+  margin: 20px 25px 0px 0px;
+}
+
+.signin:hover {
+  background-color: #d14836;
+  border: 1px solid #c53727;
+}
+
+.main {
+  width: 700px;
+  margin:0 auto;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.search {
+  width:570px;
+  margin: auto;
+  text-align: center;
+  }
+
+textarea {
+  margin: auto;
+  text-align: center;
+  width: 570px;
+  height: 27px;
+  margin: auto; 
+  border: 1px solid #d9d9d9; 
+  border-top: 1px solid #c0c0c0;
+  line-height: 27px;
+  resize: none;
+  
+}
+
+textarea:hover {
+  border: 1px solid #c0c0c0;
+}
+
+textarea:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+
+.s {
+  
+  background-color: #fff;
+  color: #444;
+  font-weight: bold;
+  height: 30px;
+  width: 100px;
+  border:1px solid #dcdcdc;
+  border-radius:3px;
+  margin: 8px 8px;
+
+}
+
+.s:hover {
+  border: 2px solid #dcdcdc;
+}
+
+.l {
+
+  background-color: #fff;
+  color: #444;
+  font-weight: bold;
+  height: 30px;
+  width: 150px;
+  border:1px solid #dcdcdc;
+  border-radius:3px;
+  margin: 8px 8px;
+  
+}
+
+.l:hover {
+  border: 2px solid #dcdcdc;
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  color: #666;
+}
+
+.topbar {
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+}
+
+footer ul li {
+  display: inline;
+
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #666;
+  padding: 0px 30px;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .left {
+  display:inline-block;
+  position: relative;
+  text-align: left;
+}
+
+footer .right {
+  display:inline-block;
+  position: relative;
+  float: right;
+}
+
+footer p {
+  padding: 0px 30px;
+}
+
+.ok {
+  background-color: #4d90fe;
+  color: #fff;
+  font-weight: bold;
+  height: 25px;
+  width: 45px;
+  border-radius:3px;
+  border: 1px solid #2f5bb7;
+}
+
+.ok:hover {
+  background-color: #357ae8;
+}
+
+footer a {
+  text-decoration: none;
+  color: #666;
+  padding: 0px 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
